@@ -132,6 +132,126 @@
 		E9968A2624FD762A0042159C /* WKWebView+RMBTConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = E9968A2524FD762A0042159C /* WKWebView+RMBTConfiguration.m */; };
 		E9968A2F2500F8150042159C /* RMBTHistoryResultPercentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9968A2E2500F8150042159C /* RMBTHistoryResultPercentView.m */; };
 		E999A69D24FC2B5A002FFE77 /* RMBTHistoryQOEResultItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E999A69524FC1416002FFE77 /* RMBTHistoryQOEResultItemCell.m */; };
+		E9F45927250D33A300E800B0 /* RMBTQoSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C777D97F1DD8AEC000D1C824 /* RMBTQoSTest.m */; };
+		E9F45928250D33A300E800B0 /* UITableViewCell+RMBTHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C7535B4718298F84003A8CC8 /* UITableViewCell+RMBTHeight.m */; };
+		E9F45929250D33A300E800B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE1487173E8F610079477A /* main.m */; };
+		E9F4592A250D33A300E800B0 /* RMBTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE148B173E8F610079477A /* RMBTAppDelegate.m */; };
+		E9F4592B250D33A300E800B0 /* RMBTQoSIPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C783F6881ED85312001CB2F9 /* RMBTQoSIPTest.m */; };
+		E9F4592C250D33A300E800B0 /* RMBTTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE149A173E8F610079477A /* RMBTTestViewController.m */; };
+		E9F4592D250D33A300E800B0 /* RMBTControlServer.m in Sources */ = {isa = PBXBuildFile; fileRef = C7916EB1173E9B6400B40152 /* RMBTControlServer.m */; };
+		E9F4592E250D33A300E800B0 /* RMBTLoopDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C72F49AB1F32341100CCA650 /* RMBTLoopDetailsCell.m */; };
+		E9F4592F250D33A300E800B0 /* RMBTTestParams.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA1A4173FD3F40055F578 /* RMBTTestParams.m */; };
+		E9F45930250D33A300E800B0 /* RMBTTOS.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A25B3817D95DAB00B7A44B /* RMBTTOS.m */; };
+		E9F45931250D33A300E800B0 /* RMBTTestWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA1A7173FE4A40055F578 /* RMBTTestWorker.m */; };
+		E9F45932250D33A300E800B0 /* RMBTBaseTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C242EE1EE5A20900E3C6E2 /* RMBTBaseTestViewController.m */; };
+		E9F45933250D33A300E800B0 /* RMBTTestRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECD90E174DB042000DF966 /* RMBTTestRunner.m */; };
+		E9F45934250D33A300E800B0 /* RMBTLoopMeasurementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FDBF2C1F03AECE0051E745 /* RMBTLoopMeasurementsViewController.m */; };
+		E9F45935250D33A300E800B0 /* RMBTQoSTCPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C71DD2411ED0ACDF009B449E /* RMBTQoSTCPTest.m */; };
+		E9F45936250D33A300E800B0 /* RMBTTestResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECD918174E93E1000DF966 /* RMBTTestResult.m */; };
+		E9F45937250D33A300E800B0 /* RMBTGaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECD91F174EB8EB000DF966 /* RMBTGaugeView.m */; };
+		E9F45938250D33A300E800B0 /* RMBTMapOptionsOverlaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70AFDED1F2E0DC50064D631 /* RMBTMapOptionsOverlaysViewController.m */; };
+		E9F45939250D33A300E800B0 /* RMBTHistoryQoSSingleResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EF30711DFEBBAA0002CCD0 /* RMBTHistoryQoSSingleResultCell.m */; };
+		E9F4593A250D33A300E800B0 /* RMBTHistoryResultPercentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9968A2E2500F8150042159C /* RMBTHistoryResultPercentView.m */; };
+		E9F4593B250D33A300E800B0 /* RMBTIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E5817418075B5400706848 /* RMBTIntroViewController.m */; };
+		E9F4593C250D33A300E800B0 /* RMBTQoSHTTPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C73780961E09EBEA00CA0558 /* RMBTQoSHTTPTest.m */; };
+		E9F4593D250D33A300E800B0 /* UIView+Position.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECD979174ED9AD000DF966 /* UIView+Position.m */; };
+		E9F4593E250D33A300E800B0 /* RMBTPing.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4A99E17E8D3E700223ABD /* RMBTPing.m */; };
+		E9F4593F250D33A300E800B0 /* RMBTThroughput.m in Sources */ = {isa = PBXBuildFile; fileRef = C78D26BE1764A65D008143DF /* RMBTThroughput.m */; };
+		E9F45940250D33A300E800B0 /* RMBTLoopInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C764BEEC1F0F65BF00F5CF80 /* RMBTLoopInfo.m */; };
+		E9F45941250D33A300E800B0 /* UIView+RMBTSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = C77071061E96BCC100043884 /* UIView+RMBTSubviews.m */; };
+		E9F45942250D33A300E800B0 /* RMBTHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C59D7B461764E6CF003E9702 /* RMBTHelpers.m */; };
+		E9F45943250D33A300E800B0 /* RMBTMapCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7228DF217FC1CC900FB984D /* RMBTMapCalloutView.m */; };
+		E9F45944250D33A300E800B0 /* CLLocation+RMBTFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = C7228DE917FBAC0300FB984D /* CLLocation+RMBTFormat.m */; };
+		E9F45945250D33A300E800B0 /* RMBTMapOptionsFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71F38951F2CF60000D2F83A /* RMBTMapOptionsFilterViewController.m */; };
+		E9F45946250D33A300E800B0 /* RMBTQoSProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EF307B1DFEEB140002CCD0 /* RMBTQoSProgressViewController.m */; };
+		E9F45947250D33A300E800B0 /* RMBTHistoryResultItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7228DEE17FC1ADF00FB984D /* RMBTHistoryResultItemCell.m */; };
+		E9F45948250D33A300E800B0 /* UIColor+RMBTHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B5C1C31A3B2B5F002BECF3 /* UIColor+RMBTHex.m */; };
+		E9F45949250D33A300E800B0 /* RMBTSpeedGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = C703D3E11765CF5E00A38C34 /* RMBTSpeedGraphView.m */; };
+		E9F4594A250D33A300E800B0 /* RMBTSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C73E792617673EBE0009855E /* RMBTSettings.m */; };
+		E9F4594B250D33A300E800B0 /* RMBTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73E7929176761630009855E /* RMBTSettingsViewController.m */; };
+		E9F4594C250D33A300E800B0 /* RMBTLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C79C94A517713106000CF5EE /* RMBTLogger.m */; };
+		E9F4594D250D33A300E800B0 /* RMBTThroughputHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = C76B8C86177709C800925BE1 /* RMBTThroughputHistory.m */; };
+		E9F4594E250D33A300E800B0 /* RMBTProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = C71161641E3CFA4800D8CC0C /* RMBTProgress.m */; };
+		E9F4594F250D33A300E800B0 /* RMBTSpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = C7912CB5177D581F004AD2A4 /* RMBTSpeed.m */; };
+		E9F45950250D33A300E800B0 /* RMBTStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B15A33180AA6810097676F /* RMBTStatsViewController.m */; };
+		E9F45951250D33A300E800B0 /* RMBTConnectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = C774EE7617920C9C00D623A3 /* RMBTConnectivity.m */; };
+		E9F45952250D33A300E800B0 /* RMBTMapOptionsTypesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70AFDEA1F2E06E40064D631 /* RMBTMapOptionsTypesViewController.m */; };
+		E9F45953250D33A300E800B0 /* RMBTNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E5816D180726E000706848 /* RMBTNavigationBar.m */; };
+		E9F45954250D33A300E800B0 /* RMBTQoSControlConnectionParams.m in Sources */ = {isa = PBXBuildFile; fileRef = C737AEEF1E7D9F25007962EB /* RMBTQoSControlConnectionParams.m */; };
+		E9F45955250D33A300E800B0 /* RMBTLocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C774EE791792F73D00D623A3 /* RMBTLocationTracker.m */; };
+		E9F45956250D33A300E800B0 /* RMBTNews.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DF2BB517D91AE400A0E76B /* RMBTNews.m */; };
+		E9F45957250D33A300E800B0 /* RMBTSSLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C72A27A317E1ECD400EC98B3 /* RMBTSSLHelper.m */; };
+		E9F45958250D33A300E800B0 /* RMBTVerticalTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E5817718078CDD00706848 /* RMBTVerticalTransitionController.m */; };
+		E9F45959250D33A300E800B0 /* RMBTHistoryIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C774EE7E1793676700D623A3 /* RMBTHistoryIndexViewController.m */; };
+		E9F4595A250D33A300E800B0 /* RMBTLoopModeTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C242EB1EE5A02500E3C6E2 /* RMBTLoopModeTestViewController.m */; };
+		E9F4595B250D33A300E800B0 /* RMBTHistoryResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C774EE8217936AF700D623A3 /* RMBTHistoryResult.m */; };
+		E9F4595C250D33A300E800B0 /* RMBTQoSCCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C737AEEB1E7D8F59007962EB /* RMBTQoSCCTest.m */; };
+		E9F4595D250D33A300E800B0 /* RMBTQoSDNSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C777D9821DD8AED000D1C824 /* RMBTQoSDNSTest.m */; };
+		E9F4595E250D33A300E800B0 /* RMBTHistoryIndexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C774EE851793742900D623A3 /* RMBTHistoryIndexCell.m */; };
+		E9F4595F250D33A300E800B0 /* RMBTQoSControlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C737AEE81E7D7C53007962EB /* RMBTQoSControlConnection.m */; };
+		E9F45960250D33A300E800B0 /* RMBTInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7770888179987B700BB478B /* RMBTInfoViewController.m */; };
+		E9F45961250D33A300E800B0 /* UIViewController+ModalBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = C77708931799CB3F00BB478B /* UIViewController+ModalBrowser.m */; };
+		E9F45962250D33A300E800B0 /* RMBTTOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75A1188179B12D800E2444F /* RMBTTOSViewController.m */; };
+		E9F45963250D33A300E800B0 /* RMBTHistoryQOEResultItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E999A69524FC1416002FFE77 /* RMBTHistoryQOEResultItemCell.m */; };
+		E9F45964250D33A300E800B0 /* RMBTHistoryResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75A118D179B3DEC00E2444F /* RMBTHistoryResultViewController.m */; };
+		E9F45965250D33A300E800B0 /* RMBTModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CBC54118105C140041301D /* RMBTModalWebViewController.m */; };
+		E9F45966250D33A300E800B0 /* WKWebView+RMBTConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = E9968A2524FD762A0042159C /* WKWebView+RMBTConfiguration.m */; };
+		E9F45967250D33A300E800B0 /* RMBTHistoryResultDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75A1190179B50CE00E2444F /* RMBTHistoryResultDetailsViewController.m */; };
+		E9F45968250D33A300E800B0 /* RMBTHistorySpeedGraphCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C77071031E96812A00043884 /* RMBTHistorySpeedGraphCell.m */; };
+		E9F45969250D33A300E800B0 /* RMBTHistoryFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C5424C17A6DD3A000180A1 /* RMBTHistoryFilterViewController.m */; };
+		E9F4596A250D33A300E800B0 /* RMBTInfoTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75FF5C717B15DA600A58056 /* RMBTInfoTextViewController.m */; };
+		E9F4596B250D33A300E800B0 /* RMBTMapServer.m in Sources */ = {isa = PBXBuildFile; fileRef = C75FF5CA17B16ABE00A58056 /* RMBTMapServer.m */; };
+		E9F4596C250D33A300E800B0 /* RMBTMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75FF5CD17B16C2700A58056 /* RMBTMapViewController.m */; };
+		E9F4596D250D33A300E800B0 /* RMBTQoSTestRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = C777D97C1DD8AA8700D1C824 /* RMBTQoSTestRunner.m */; };
+		E9F4596E250D33A300E800B0 /* RMBTMapOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = C75FF5D417B1970600A58056 /* RMBTMapOptions.m */; };
+		E9F4596F250D33A300E800B0 /* RMBTHistoryQoSSingleResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A8CC061DFDAC7E00D9E979 /* RMBTHistoryQoSSingleResult.m */; };
+		E9F45970250D33A300E800B0 /* RMBTQoSTestGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C777D9851DD8BEF700D1C824 /* RMBTQoSTestGroup.m */; };
+		E9F45971250D33A300E800B0 /* RMBTMapOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75FF5D717B2602E00A58056 /* RMBTMapOptionsViewController.m */; };
+		E9F45972250D33A300E800B0 /* RMBTQoSTracerouteTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C77952DB1E23DF5200B95FFF /* RMBTQoSTracerouteTest.m */; };
+		E9F45973250D33A300E800B0 /* RMBTQoSUDPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C737AEE51E7D6947007962EB /* RMBTQoSUDPTest.m */; };
+		E9F45974250D33A300E800B0 /* RMBTConnectivityTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C7978FD617F1D07100BF986C /* RMBTConnectivityTracker.m */; };
+		E9F45975250D33A300E800B0 /* RMBTQoSNonTransparentProxyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7459B4C1EAC0B8A00042A42 /* RMBTQoSNonTransparentProxyTest.m */; };
+		E9F45976250D33A300E800B0 /* RMBTQoSWebTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A19B221E919BDD0044B6C8 /* RMBTQoSWebTest.m */; };
+		E9F45977250D33A300E800B0 /* RMBTHistoryQoSGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79E7B071DF5884700CFC95F /* RMBTHistoryQoSGroupViewController.m */; };
+		E9F45978250D33A300E800B0 /* RMBTHistorySpeedGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = C7704EA21E95531B00044AF6 /* RMBTHistorySpeedGraph.m */; };
+		E9F45979250D33A300E800B0 /* RMBTQosWebTestURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C780CE4E1EA287C800332423 /* RMBTQosWebTestURLProtocol.m */; };
+		E9F4597A250D33A300E800B0 /* RMBTLoopModeConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C783F68B1EDC7A15001CB2F9 /* RMBTLoopModeConfirmationViewController.m */; };
+		E9F4597B250D33A300E800B0 /* RMBTLoopDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4E9ED1F0CE4E500FA34F8 /* RMBTLoopDetailsViewController.m */; };
+		E9F4597C250D33A300E800B0 /* RMBTHistoryQoSSingleResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EF69711E096F7D002F429C /* RMBTHistoryQoSSingleResultViewController.m */; };
+		E9F4597D250D33A300E800B0 /* RMBTHistoryQoSGroupResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C733B6D81DDE1EB2005B9105 /* RMBTHistoryQoSGroupResult.m */; };
+		E9F4597E250D33A300E800B0 /* RMBTMapMeasurement.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A4B75917B43C8400176B92 /* RMBTMapMeasurement.m */; };
+		E9F45980250D33A300E800B0 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C741B62B1DD99D7A0097D84D /* libresolv.tbd */; };
+		E9F45981250D33A300E800B0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F08F691769F37600741844 /* CoreTelephony.framework */; };
+		E9F45982250D33A300E800B0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB485176364E400187C94 /* OpenGLES.framework */; };
+		E9F45983250D33A300E800B0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB483176364DF00187C94 /* libz.dylib */; };
+		E9F45984250D33A300E800B0 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB481176364D900187C94 /* libicucore.dylib */; };
+		E9F45985250D33A300E800B0 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB47F176364D500187C94 /* libc++.dylib */; };
+		E9F45986250D33A300E800B0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB47D176364CE00187C94 /* ImageIO.framework */; };
+		E9F45987250D33A300E800B0 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB47B176364C900187C94 /* GLKit.framework */; };
+		E9F45988250D33A300E800B0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB479176364C300187C94 /* CoreText.framework */; };
+		E9F45989250D33A300E800B0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB477176364BC00187C94 /* CoreData.framework */; };
+		E9F4598A250D33A300E800B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB475176364B100187C94 /* AVFoundation.framework */; };
+		E9F4598B250D33A300E800B0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573F2B0175294A500C728FC /* CoreLocation.framework */; };
+		E9F4598C250D33A300E800B0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573F2A4175281D300C728FC /* MapKit.framework */; };
+		E9F4598D250D33A300E800B0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C779E9E817403364003874AB /* QuartzCore.framework */; };
+		E9F4598E250D33A300E800B0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9789EED24D74434007253EB /* WebKit.framework */; };
+		E9F4598F250D33A300E800B0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7916EB8173EB68200B40152 /* MobileCoreServices.framework */; };
+		E9F45990250D33A300E800B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7916EB6173EB65F00B40152 /* SystemConfiguration.framework */; };
+		E9F45991250D33A300E800B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DE147B173E8F610079477A /* UIKit.framework */; };
+		E9F45992250D33A300E800B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DE147D173E8F610079477A /* Foundation.framework */; };
+		E9F45993250D33A300E800B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DE147F173E8F610079477A /* CoreGraphics.framework */; };
+		E9F45994250D33A300E800B0 /* libPods-RMBT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B5D1F96A5D607CBD1C4902 /* libPods-RMBT.a */; };
+		E9F45996250D33A300E800B0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C792B8751814AEC700D504DF /* MainStoryboard.storyboard */; };
+		E9F45997250D33A300E800B0 /* RMBTMapCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7228DEB17FC199F00FB984D /* RMBTMapCalloutView.xib */; };
+		E9F45998250D33A300E800B0 /* terms_conditions_long.html in Resources */ = {isa = PBXBuildFile; fileRef = C7F3FB35179CC86900E336CF /* terms_conditions_long.html */; };
+		E9F45999250D33A300E800B0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7F3FB3E179CCCD600E336CF /* Localizable.strings */; };
+		E9F4599A250D33A300E800B0 /* RMBTHistoryIndexCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F599A61A2A81940020ADC4 /* RMBTHistoryIndexCell.xib */; };
+		E9F4599B250D33A300E800B0 /* loop_mode_info.html in Resources */ = {isa = PBXBuildFile; fileRef = C783F68D1EDC7EB4001CB2F9 /* loop_mode_info.html */; };
+		E9F4599C250D33A300E800B0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BC5C721F747A9E00A91F0F /* Launch Screen.storyboard */; };
+		E9F4599D250D33A300E800B0 /* RMBTHistoryQoSSingleResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7EF30731DFEBBF80002CCD0 /* RMBTHistoryQoSSingleResultCell.xib */; };
+		E9F4599E250D33A300E800B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70C178B17D7BFC400F55964 /* Images.xcassets */; };
+		E9F4599F250D33A300E800B0 /* loop_mode_info2.html in Resources */ = {isa = PBXBuildFile; fileRef = C783F68F1EDC7EB4001CB2F9 /* loop_mode_info2.html */; };
+		E9F459A0250D33A300E800B0 /* TestStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72F49A51F31CE3A00CCA650 /* TestStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -386,6 +506,8 @@
 		E9968A2E2500F8150042159C /* RMBTHistoryResultPercentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMBTHistoryResultPercentView.m; sourceTree = "<group>"; };
 		E999A69524FC1416002FFE77 /* RMBTHistoryQOEResultItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBTHistoryQOEResultItemCell.m; sourceTree = "<group>"; };
 		E999A69624FC1416002FFE77 /* RMBTHistoryQOEResultItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBTHistoryQOEResultItemCell.h; sourceTree = "<group>"; };
+		E9F459A5250D33A300E800B0 /* RMBT Specure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RMBT Specure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F459A6250D33A300E800B0 /* RMBT copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RMBT copy-Info.plist"; path = "/Users/sglushchenko/Projects/open-rmbt-ios/RMBT copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -421,6 +543,34 @@
 				C7DE147E173E8F610079477A /* Foundation.framework in Frameworks */,
 				C7DE1480173E8F610079477A /* CoreGraphics.framework in Frameworks */,
 				7ABF93939D07A19DF172C790 /* libPods-RMBT.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F4597F250D33A300E800B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F45980250D33A300E800B0 /* libresolv.tbd in Frameworks */,
+				E9F45981250D33A300E800B0 /* CoreTelephony.framework in Frameworks */,
+				E9F45982250D33A300E800B0 /* OpenGLES.framework in Frameworks */,
+				E9F45983250D33A300E800B0 /* libz.dylib in Frameworks */,
+				E9F45984250D33A300E800B0 /* libicucore.dylib in Frameworks */,
+				E9F45985250D33A300E800B0 /* libc++.dylib in Frameworks */,
+				E9F45986250D33A300E800B0 /* ImageIO.framework in Frameworks */,
+				E9F45987250D33A300E800B0 /* GLKit.framework in Frameworks */,
+				E9F45988250D33A300E800B0 /* CoreText.framework in Frameworks */,
+				E9F45989250D33A300E800B0 /* CoreData.framework in Frameworks */,
+				E9F4598A250D33A300E800B0 /* AVFoundation.framework in Frameworks */,
+				E9F4598B250D33A300E800B0 /* CoreLocation.framework in Frameworks */,
+				E9F4598C250D33A300E800B0 /* MapKit.framework in Frameworks */,
+				E9F4598D250D33A300E800B0 /* QuartzCore.framework in Frameworks */,
+				E9F4598E250D33A300E800B0 /* WebKit.framework in Frameworks */,
+				E9F4598F250D33A300E800B0 /* MobileCoreServices.framework in Frameworks */,
+				E9F45990250D33A300E800B0 /* SystemConfiguration.framework in Frameworks */,
+				E9F45991250D33A300E800B0 /* UIKit.framework in Frameworks */,
+				E9F45992250D33A300E800B0 /* Foundation.framework in Frameworks */,
+				E9F45993250D33A300E800B0 /* CoreGraphics.framework in Frameworks */,
+				E9F45994250D33A300E800B0 /* libPods-RMBT.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,6 +906,7 @@
 				C7DE147A173E8F610079477A /* Frameworks */,
 				C7DE1479173E8F610079477A /* Products */,
 				B5AF762C1C3DE54BD04B4440 /* Pods */,
+				E9F459A6250D33A300E800B0 /* RMBT copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -764,6 +915,7 @@
 			children = (
 				C7DE1478173E8F610079477A /* RMBT.app */,
 				C70828021CB6792F00F482EB /* RMBTTest.xctest */,
+				E9F459A5250D33A300E800B0 /* RMBT Specure.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -958,6 +1110,26 @@
 			productReference = C7DE1478173E8F610079477A /* RMBT.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E9F45924250D33A300E800B0 /* RMBT Specure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F459A3250D33A300E800B0 /* Build configuration list for PBXNativeTarget "RMBT Specure" */;
+			buildPhases = (
+				E9F45925250D33A300E800B0 /* [CP] Check Pods Manifest.lock */,
+				E9F45926250D33A300E800B0 /* Sources */,
+				E9F4597F250D33A300E800B0 /* Frameworks */,
+				E9F45995250D33A300E800B0 /* Resources */,
+				E9F459A1250D33A300E800B0 /* Run Script: Add Build Infos */,
+				E9F459A2250D33A300E800B0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RMBT Specure";
+			productName = RMBT;
+			productReference = E9F459A5250D33A300E800B0 /* RMBT Specure.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -981,6 +1153,9 @@
 								enabled = 1;
 							};
 						};
+					};
+					E9F45924250D33A300E800B0 = {
+						DevelopmentTeam = 4XZ94A6MUA;
 					};
 				};
 			};
@@ -1006,6 +1181,7 @@
 			targets = (
 				C7DE1477173E8F610079477A /* RMBT */,
 				C70828011CB6792F00F482EB /* RMBTTest */,
+				E9F45924250D33A300E800B0 /* RMBT Specure */,
 			);
 		};
 /* End PBXProject section */
@@ -1033,6 +1209,24 @@
 				C70C178C17D7BFC400F55964 /* Images.xcassets in Resources */,
 				C783F6921EDC7EB4001CB2F9 /* loop_mode_info2.html in Resources */,
 				C72F49A31F31CE3A00CCA650 /* TestStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F45995250D33A300E800B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F45996250D33A300E800B0 /* MainStoryboard.storyboard in Resources */,
+				E9F45997250D33A300E800B0 /* RMBTMapCalloutView.xib in Resources */,
+				E9F45998250D33A300E800B0 /* terms_conditions_long.html in Resources */,
+				E9F45999250D33A300E800B0 /* Localizable.strings in Resources */,
+				E9F4599A250D33A300E800B0 /* RMBTHistoryIndexCell.xib in Resources */,
+				E9F4599B250D33A300E800B0 /* loop_mode_info.html in Resources */,
+				E9F4599C250D33A300E800B0 /* Launch Screen.storyboard in Resources */,
+				E9F4599D250D33A300E800B0 /* RMBTHistoryQoSSingleResultCell.xib in Resources */,
+				E9F4599E250D33A300E800B0 /* Images.xcassets in Resources */,
+				E9F4599F250D33A300E800B0 /* loop_mode_info2.html in Resources */,
+				E9F459A0250D33A300E800B0 /* TestStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1131,6 +1325,100 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9F45925250D33A300E800B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RMBT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9F459A1250D33A300E800B0 /* Run Script: Add Build Infos */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script: Add Build Infos";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Scripts/add_build_infos.sh\"\n";
+		};
+		E9F459A2250D33A300E800B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RMBT/Pods-RMBT-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerBack.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerBack@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerNext.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerNext@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome-iPad.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome-iPad@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari-iPad.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari-iPad@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/da.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/de.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/en.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/es-ES.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/es.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/fr.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/ja.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/pt.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/zh-Hans.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/zh-Hant.lproj",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TUSafariActivity/TUSafariActivity.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerBack.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerBack@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerNext.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerNext@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivityChrome-iPad.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivityChrome-iPad@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivityChrome@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivitySafari-iPad.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivitySafari-iPad@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivitySafari@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/da.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/de.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es-ES.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ja.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hant.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TUSafariActivity.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RMBT/Pods-RMBT-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1240,6 +1528,101 @@
 				C7EF69721E096F7D002F429C /* RMBTHistoryQoSSingleResultViewController.m in Sources */,
 				C733B6D91DDE1EB2005B9105 /* RMBTHistoryQoSGroupResult.m in Sources */,
 				C7A4B75A17B43C8400176B92 /* RMBTMapMeasurement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F45926250D33A300E800B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F45927250D33A300E800B0 /* RMBTQoSTest.m in Sources */,
+				E9F45928250D33A300E800B0 /* UITableViewCell+RMBTHeight.m in Sources */,
+				E9F45929250D33A300E800B0 /* main.m in Sources */,
+				E9F4592A250D33A300E800B0 /* RMBTAppDelegate.m in Sources */,
+				E9F4592B250D33A300E800B0 /* RMBTQoSIPTest.m in Sources */,
+				E9F4592C250D33A300E800B0 /* RMBTTestViewController.m in Sources */,
+				E9F4592D250D33A300E800B0 /* RMBTControlServer.m in Sources */,
+				E9F4592E250D33A300E800B0 /* RMBTLoopDetailsCell.m in Sources */,
+				E9F4592F250D33A300E800B0 /* RMBTTestParams.m in Sources */,
+				E9F45930250D33A300E800B0 /* RMBTTOS.m in Sources */,
+				E9F45931250D33A300E800B0 /* RMBTTestWorker.m in Sources */,
+				E9F45932250D33A300E800B0 /* RMBTBaseTestViewController.m in Sources */,
+				E9F45933250D33A300E800B0 /* RMBTTestRunner.m in Sources */,
+				E9F45934250D33A300E800B0 /* RMBTLoopMeasurementsViewController.m in Sources */,
+				E9F45935250D33A300E800B0 /* RMBTQoSTCPTest.m in Sources */,
+				E9F45936250D33A300E800B0 /* RMBTTestResult.m in Sources */,
+				E9F45937250D33A300E800B0 /* RMBTGaugeView.m in Sources */,
+				E9F45938250D33A300E800B0 /* RMBTMapOptionsOverlaysViewController.m in Sources */,
+				E9F45939250D33A300E800B0 /* RMBTHistoryQoSSingleResultCell.m in Sources */,
+				E9F4593A250D33A300E800B0 /* RMBTHistoryResultPercentView.m in Sources */,
+				E9F4593B250D33A300E800B0 /* RMBTIntroViewController.m in Sources */,
+				E9F4593C250D33A300E800B0 /* RMBTQoSHTTPTest.m in Sources */,
+				E9F4593D250D33A300E800B0 /* UIView+Position.m in Sources */,
+				E9F4593E250D33A300E800B0 /* RMBTPing.m in Sources */,
+				E9F4593F250D33A300E800B0 /* RMBTThroughput.m in Sources */,
+				E9F45940250D33A300E800B0 /* RMBTLoopInfo.m in Sources */,
+				E9F45941250D33A300E800B0 /* UIView+RMBTSubviews.m in Sources */,
+				E9F45942250D33A300E800B0 /* RMBTHelpers.m in Sources */,
+				E9F45943250D33A300E800B0 /* RMBTMapCalloutView.m in Sources */,
+				E9F45944250D33A300E800B0 /* CLLocation+RMBTFormat.m in Sources */,
+				E9F45945250D33A300E800B0 /* RMBTMapOptionsFilterViewController.m in Sources */,
+				E9F45946250D33A300E800B0 /* RMBTQoSProgressViewController.m in Sources */,
+				E9F45947250D33A300E800B0 /* RMBTHistoryResultItemCell.m in Sources */,
+				E9F45948250D33A300E800B0 /* UIColor+RMBTHex.m in Sources */,
+				E9F45949250D33A300E800B0 /* RMBTSpeedGraphView.m in Sources */,
+				E9F4594A250D33A300E800B0 /* RMBTSettings.m in Sources */,
+				E9F4594B250D33A300E800B0 /* RMBTSettingsViewController.m in Sources */,
+				E9F4594C250D33A300E800B0 /* RMBTLogger.m in Sources */,
+				E9F4594D250D33A300E800B0 /* RMBTThroughputHistory.m in Sources */,
+				E9F4594E250D33A300E800B0 /* RMBTProgress.m in Sources */,
+				E9F4594F250D33A300E800B0 /* RMBTSpeed.m in Sources */,
+				E9F45950250D33A300E800B0 /* RMBTStatsViewController.m in Sources */,
+				E9F45951250D33A300E800B0 /* RMBTConnectivity.m in Sources */,
+				E9F45952250D33A300E800B0 /* RMBTMapOptionsTypesViewController.m in Sources */,
+				E9F45953250D33A300E800B0 /* RMBTNavigationBar.m in Sources */,
+				E9F45954250D33A300E800B0 /* RMBTQoSControlConnectionParams.m in Sources */,
+				E9F45955250D33A300E800B0 /* RMBTLocationTracker.m in Sources */,
+				E9F45956250D33A300E800B0 /* RMBTNews.m in Sources */,
+				E9F45957250D33A300E800B0 /* RMBTSSLHelper.m in Sources */,
+				E9F45958250D33A300E800B0 /* RMBTVerticalTransitionController.m in Sources */,
+				E9F45959250D33A300E800B0 /* RMBTHistoryIndexViewController.m in Sources */,
+				E9F4595A250D33A300E800B0 /* RMBTLoopModeTestViewController.m in Sources */,
+				E9F4595B250D33A300E800B0 /* RMBTHistoryResult.m in Sources */,
+				E9F4595C250D33A300E800B0 /* RMBTQoSCCTest.m in Sources */,
+				E9F4595D250D33A300E800B0 /* RMBTQoSDNSTest.m in Sources */,
+				E9F4595E250D33A300E800B0 /* RMBTHistoryIndexCell.m in Sources */,
+				E9F4595F250D33A300E800B0 /* RMBTQoSControlConnection.m in Sources */,
+				E9F45960250D33A300E800B0 /* RMBTInfoViewController.m in Sources */,
+				E9F45961250D33A300E800B0 /* UIViewController+ModalBrowser.m in Sources */,
+				E9F45962250D33A300E800B0 /* RMBTTOSViewController.m in Sources */,
+				E9F45963250D33A300E800B0 /* RMBTHistoryQOEResultItemCell.m in Sources */,
+				E9F45964250D33A300E800B0 /* RMBTHistoryResultViewController.m in Sources */,
+				E9F45965250D33A300E800B0 /* RMBTModalWebViewController.m in Sources */,
+				E9F45966250D33A300E800B0 /* WKWebView+RMBTConfiguration.m in Sources */,
+				E9F45967250D33A300E800B0 /* RMBTHistoryResultDetailsViewController.m in Sources */,
+				E9F45968250D33A300E800B0 /* RMBTHistorySpeedGraphCell.m in Sources */,
+				E9F45969250D33A300E800B0 /* RMBTHistoryFilterViewController.m in Sources */,
+				E9F4596A250D33A300E800B0 /* RMBTInfoTextViewController.m in Sources */,
+				E9F4596B250D33A300E800B0 /* RMBTMapServer.m in Sources */,
+				E9F4596C250D33A300E800B0 /* RMBTMapViewController.m in Sources */,
+				E9F4596D250D33A300E800B0 /* RMBTQoSTestRunner.m in Sources */,
+				E9F4596E250D33A300E800B0 /* RMBTMapOptions.m in Sources */,
+				E9F4596F250D33A300E800B0 /* RMBTHistoryQoSSingleResult.m in Sources */,
+				E9F45970250D33A300E800B0 /* RMBTQoSTestGroup.m in Sources */,
+				E9F45971250D33A300E800B0 /* RMBTMapOptionsViewController.m in Sources */,
+				E9F45972250D33A300E800B0 /* RMBTQoSTracerouteTest.m in Sources */,
+				E9F45973250D33A300E800B0 /* RMBTQoSUDPTest.m in Sources */,
+				E9F45974250D33A300E800B0 /* RMBTConnectivityTracker.m in Sources */,
+				E9F45975250D33A300E800B0 /* RMBTQoSNonTransparentProxyTest.m in Sources */,
+				E9F45976250D33A300E800B0 /* RMBTQoSWebTest.m in Sources */,
+				E9F45977250D33A300E800B0 /* RMBTHistoryQoSGroupViewController.m in Sources */,
+				E9F45978250D33A300E800B0 /* RMBTHistorySpeedGraph.m in Sources */,
+				E9F45979250D33A300E800B0 /* RMBTQosWebTestURLProtocol.m in Sources */,
+				E9F4597A250D33A300E800B0 /* RMBTLoopModeConfirmationViewController.m in Sources */,
+				E9F4597B250D33A300E800B0 /* RMBTLoopDetailsViewController.m in Sources */,
+				E9F4597C250D33A300E800B0 /* RMBTHistoryQoSSingleResultViewController.m in Sources */,
+				E9F4597D250D33A300E800B0 /* RMBTHistoryQoSGroupResult.m in Sources */,
+				E9F4597E250D33A300E800B0 /* RMBTMapMeasurement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1465,6 +1848,34 @@
 			};
 			name = Debug;
 		};
+		E9F459A4250D33A300E800B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C0EFE3176CD18F003758AA /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RMBT.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4XZ94A6MUA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sources/RMBT-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "RMBT copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.specure.openrmbt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1489,6 +1900,14 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7DE149F173E8F610079477A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E9F459A3250D33A300E800B0 /* Build configuration list for PBXNativeTarget "RMBT Specure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F459A4250D33A300E800B0 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
